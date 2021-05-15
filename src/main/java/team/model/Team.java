@@ -2,6 +2,7 @@ package team.model;
 
 import player.model.*;
 
+import java.io.Serial;
 import java.io.Serializable;
 import java.util.Random;
 import java.util.Vector;
@@ -11,6 +12,9 @@ import java.util.Vector;
  * @author Andrés Fernández
  */
 public class Team implements Serializable {
+
+    @Serial
+    private static final long serialVersionUID = 1L;
 
     private String name;
     private Vector<Player> players = new Vector<>();
