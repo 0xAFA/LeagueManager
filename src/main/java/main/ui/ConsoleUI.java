@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.Scanner;
 
-public class ConsoleInterface {
+public class ConsoleUI {
 
     private final Scanner in = new Scanner(System.in);
 

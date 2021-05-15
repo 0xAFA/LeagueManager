@@ -1,6 +1,6 @@
 package main;
 
-import main.ui.ConsoleInterface;
+import main.ui.ConsoleUI;
 import team.repository.TeamManager;
 import team.repository.TeamMemoryRepository;
 
@@ -15,7 +15,7 @@ public class ConsoleApp {
         TeamMemoryRepository teams = new TeamMemoryRepository();
         TeamManager teamManager = new TeamManager(teams);
 
-        ConsoleInterface ui = new ConsoleInterface();
+        ConsoleUI ui = new ConsoleUI();
 
         ui.display("Bienvenido a LeagueManager.");
 

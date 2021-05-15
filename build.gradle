@@ -25,4 +25,4 @@ test {
     useJUnitPlatform()
 }
 
-mainClassName = "Main"
+mainClassName = "main.JavaFXApp"
