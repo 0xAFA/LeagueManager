@@ -1,3 +1,5 @@
+import team.model.Team;
+
 import java.util.Date;
 
 /**

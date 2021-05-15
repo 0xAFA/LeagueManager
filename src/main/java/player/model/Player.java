@@ -1,3 +1,5 @@
+package player.model;
+
 /**
  * Clase que representa a un futbolista.
  * @author Andrés Fernández

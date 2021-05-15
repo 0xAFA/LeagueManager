@@ -1,5 +1,6 @@
+import team.model.Team;
+
 import java.util.Random;
-import java.util.Scanner;
 import java.util.Vector;
 
 /**

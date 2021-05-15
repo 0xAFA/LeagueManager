@@ -1,3 +1,5 @@
+package player.model;
+
 /**
  * Clase que representa un delantero.
  * @author Andrés Fernández
