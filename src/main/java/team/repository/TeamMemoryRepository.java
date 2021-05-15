@@ -16,7 +16,7 @@ public class TeamMemoryRepository implements TeamRepository{
 
     @Override
     public boolean exists(String nombre) {
-        return false;
+        return teams.containsKey(nombre);
     }
 
     @Override

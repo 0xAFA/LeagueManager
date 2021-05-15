@@ -1,0 +1,1 @@
+Este archivo sirve para asegurar que el directorio /data exista, porque git no permite incluir directorios vacíos.

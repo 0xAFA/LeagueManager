@@ -78,11 +78,9 @@ public class TeamManager {
                 team2 = teams.getRandom();
             } while (team1.getName().equals(team2.getName()));
 
-            // Generar el partido, con un número de goles aleatorio para cada equipo,
-            // y añadirlo a la liga.
+            // Generar el partido, con un número de goles aleatorio para cada equipo.
             Match match = new Match(team1, team2,
                     random.nextInt(5), random.nextInt(5), false);
-            //matchHistory.add(match);
         }
     }
 
