@@ -6,6 +6,10 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.Scanner;
 
+/**
+ * Interfaz de usuario para la aplicación de consola.
+ * @author Andrés Fernández
+ */
 public class ConsoleUI {
 
     private final Scanner in = new Scanner(System.in);
@@ -63,7 +67,6 @@ public class ConsoleUI {
 
         for (int i = 0; i < teams.size(); i++) {
             display((i+1) + ". " + teams.get(i).toString() + ": " + teams.get(i).getPoints() + " puntos");
-
         }
     }
 }

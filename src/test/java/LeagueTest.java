@@ -58,7 +58,6 @@ class LeagueTest {
         teams.generateRandomTeams(20);
         assertEquals(20,teams.getTeams().size());
         teams.generateRandomMatches(100);
-}
-
+    }
 }
 

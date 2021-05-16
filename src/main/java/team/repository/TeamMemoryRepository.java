@@ -4,6 +4,10 @@ import team.model.Team;
 
 import java.util.*;
 
+/**
+ * Repositorio de equipo que almacena los datos en memoria.
+ * @author Andrés Fernández
+ */
 public class TeamMemoryRepository implements TeamRepository{
 
     HashMap<String, Team> teams = new HashMap<>();

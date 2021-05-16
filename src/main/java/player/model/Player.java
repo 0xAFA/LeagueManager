@@ -4,7 +4,7 @@ import java.io.Serial;
 import java.io.Serializable;
 
 /**
- * Clase que representa a un futbolista.
+ * Clase abstracta que representa a un futbolista.
  * @author Andrés Fernández
  */
 public abstract class Player implements Serializable {

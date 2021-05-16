@@ -4,6 +4,10 @@ import main.ui.ConsoleUI;
 import team.repository.TeamManager;
 import team.repository.TeamMemoryRepository;
 
+/**
+ * Aplicación de consola.
+ * @author Andrés Fernández
+ */
 public class ConsoleApp {
 
     /**

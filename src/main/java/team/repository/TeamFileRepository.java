@@ -8,6 +8,10 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Random;
 
+/**
+ * Repositorio de equipo que almacena los datos en disco.
+ * @author Andrés Fernández
+ */
 public class TeamFileRepository implements TeamRepository {
 
     HashMap<String, Team> teams = new HashMap<>();

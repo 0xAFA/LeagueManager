@@ -9,10 +9,14 @@ import java.util.HashMap;
 /**
  * Métodos auxiliares para pasar los repositorios de memoria a archivo y viceversa.
  * @param <T> Tipo.
- * @author Andrés Fernández
  */
 public class FileMethods<T> {
 
+    /**
+     * Guarda el repositorio en un archivo.
+     * @param repo Repositorio.
+     * @param path Ruta del archivo.
+     */
     public void writeMapToFile(HashMap<String, T> repo, String path) {
         try {
             FileOutputStream fos = new FileOutputStream(path);
@@ -24,6 +28,11 @@ public class FileMethods<T> {
         }
     }
 
+    /**
+     * Carga un repositorio almacenado en archivo en un HashMap.
+     * @param path Ruta del archivo.
+     * @return HashMap
+     */
     //En esta situación es obligatorio hacer un unchecked cast, por lo que silencio la advertencia
     @SuppressWarnings("unchecked")
     public HashMap<String, T> readMapFromFile(String path) {

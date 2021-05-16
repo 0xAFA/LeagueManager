@@ -40,7 +40,5 @@ public class Match {
                 awayTeam.addPoints(1);
             }
         }
-
     }
-
 }

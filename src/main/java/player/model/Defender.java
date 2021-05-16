@@ -1,7 +1,7 @@
 package player.model;
 
 /**
- * Clase que representa un delantero.
+ * Clase que representa a un delantero.
  * @author Andrés Fernández
  */
 public class Defender extends Player {
