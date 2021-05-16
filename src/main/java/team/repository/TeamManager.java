@@ -60,14 +60,14 @@ public class TeamManager {
      * Crea n partidos entre los equipos de la liga, con participantes y resultado aleatorios.
      * @param n Numero de equipos a crear.
      */
-    public void generateRandomMatches (int n) {
+    public boolean generateRandomMatches (int n) {
 
         Random random = new Random();
         int teamsLen = teams.size();
 
         if (teamsLen <= 1) {
             System.out.println("No hay suficientes equipos. Volviendo al menu principal.");
-            return;
+            return false;
         }
 
         for (int i = 1; i<=n; i++) {
@@ -82,6 +82,7 @@ public class TeamManager {
             Match match = new Match(team1, team2,
                     random.nextInt(5), random.nextInt(5), false);
         }
+        return true;
     }
 
 
